@@ -49,10 +49,6 @@ If you find this tool useful, consider supporting us by buying us a coffee. Your
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
-
-For any questions or inquiries, please contact us at [saqibbedar](mailto:saqibbedar@example.com).
-
 ---
 
-Made with ❤️ by [Saqib Bedar](https://linkedin.com/in/saqibbedar)
+Made with ❤️ by [Saqib Bedar](https://buymeacoffee.com/saqibbedar)
