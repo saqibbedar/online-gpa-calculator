@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - GPA Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Add any additional styles here */
+      .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 20px;
+        text-align: center;
+      }
+      .about-container h1 {
+        letter-spacing: 1.5px;
+        margin-bottom: 20px;
+      }
+      .about-container p {
+        letter-spacing: 1.2px;
+        margin-bottom: 20px;
+        max-width: 600px;
+      }
+      .about-container a {
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+      }
+      button {
+        position: relative;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 0px;
+        border: 1px solid transparent;
+        outline: none;
+        background: black;
+        color: white;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        transition: opacity 0.2s ease, color 0.3s ease, border 0.3s ease;
+      }
+      button::after {
+        content: "";
+        position: absolute;
+        top: -40px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(239, 239, 239);
+        z-index: -1;
+        transition: top 0.5s ease;
+      }
+      button:hover::after {
+        top: 0;
+      }
+      button:hover {
+        color: black;
+        border: 1px solid black;
+      }
+      button:active {
+        scale: 0.99;
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-container">
+      <h1>About GPA Calculator</h1>
+      <p>
+        Welcome to the GPA Calculator! This is a free tool designed to help you
+        calculate your GPA with ease. Simply enter your course grades and credit
+        hours, and our calculator will do the rest.
+      </p>
+      <p>
+        This project is open source and available on
+        <a href="https://github.com/saqibbedar/online-gpa-calculator">GitHub</a>. We welcome any
+        contributions, whether it's fixing bugs, reporting issues, or adding new
+        features.
+      </p>
+      <p>
+        If you find this tool useful, consider supporting us by buying us a
+        coffee. Your support helps us keep this project running and improve it
+        further.
+      </p>
+      <button
+        class=""
+        onclick="window.location.href='https://buymeacoffee.com/saqibbedar'"
+      >
+        Buy Me a Coffee
+      </button>
+    </div>
+  </body>
+</html>

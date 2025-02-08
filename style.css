@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.footer a{
+    color: white;
+}
+.footer .creator{
+    justify-content: space-between;
+    gap: 10px;
+    display: flex;
+    padding: 18px 20px;
+    border-bottom: 1px solid rgb(135, 135, 135);
+}
+
+@media (width < 767px) {
+    .footer .creator{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+}
